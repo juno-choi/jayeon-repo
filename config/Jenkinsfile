@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('CLONE') {
+            steps {
+                git branch: 'main', credentialsId: '8e8302f1-6b98-4bfe-9981-2e027e49089b', url: 'https://github.com/juno-choi/jayeon-config.git'
+            }
+        }
+        stage('CLEAN') {
+            steps {
+                sh 'cd /var/jenkins_home/workspace/config'
+                sh 'chmod +x gradlew'
+                sh './gradlew clean'
+            }
+        }
+        stage('BUILD') {
+            steps {
+                sh './gradlew build'
+            }
+        }
+        stage('HUB PUSH') {
+            steps {
+                sh 'docker build -t ililil9482/config-server:1.0 .'
+                sh 'docker push ililil9482/config-server:1.0'
+            }
+        }
+    }
+}
