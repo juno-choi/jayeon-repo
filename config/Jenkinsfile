@@ -2,27 +2,75 @@ pipeline {
     agent any
 
     stages {
-        stage('CLONE') {
+        stage('Clone') {
             steps {
                 git branch: 'main', credentialsId: '8e8302f1-6b98-4bfe-9981-2e027e49089b', url: 'https://github.com/juno-choi/jayeon-config.git'
             }
         }
-        stage('CLEAN') {
+        stage('Clean') {
             steps {
                 sh 'cd /var/jenkins_home/workspace/config'
                 sh 'chmod +x gradlew'
                 sh './gradlew clean'
             }
         }
-        stage('BUILD') {
+        stage('Build') {
             steps {
                 sh './gradlew build'
             }
         }
-        stage('HUB PUSH') {
+        stage('HUB Push') {
             steps {
                 sh 'docker build -t ililil9482/config-server:1.0 .'
                 sh 'docker push ililil9482/config-server:1.0'
+            }
+        }
+        stage('Down') {
+            steps {
+sshPublisher(publishers: [
+  sshPublisherDesc(configName: 'publisher',
+  transfers: [
+    sshTransfer(cleanRemote: false,
+    excludes: '',
+    execCommand: 'cd /msa/config && sudo docker-compose down',
+    execTimeout: 120000,
+    flatten: false,
+    makeEmptyDirs: false,
+    noDefaultExcludes: false,
+    patternSeparator: '[, ]+',
+    remoteDirectory: '',
+    remoteDirectorySDF: false,
+    removePrefix: '',
+    sourceFiles: '')
+  ],
+  usePromotionTimestamp: false,
+  useWorkspaceInPromotion: false,
+  verbose: false)
+])
+            }
+        }
+        stage('Up') {
+            steps {
+sshPublisher(publishers: [
+  sshPublisherDesc(configName: 'publisher',
+  transfers: [
+    sshTransfer(cleanRemote: false,
+    excludes: '',
+    execCommand: 'cd /msa/config && sudo docker-compose up -d',
+    execTimeout: 120000,
+    flatten: false,
+    makeEmptyDirs: false,
+    noDefaultExcludes: false,
+    patternSeparator: '[, ]+',
+    remoteDirectory: '',
+    remoteDirectorySDF: false,
+    removePrefix: '',
+    sourceFiles: '')
+  ],
+  usePromotionTimestamp: false,
+  useWorkspaceInPromotion: false,
+  verbose: false)
+])
             }
         }
     }
