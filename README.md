@@ -11,3 +11,4 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 
 # 📗Jayeon Server
 * [jayeon 프로젝트 생성 [1] Vue](https://velog.io/@ililil9482/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
+* [jayeon 프로젝트 생성 [2] Express 생성 및 수정](https://velog.io/@ililil9482/jayeon-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-2-Express-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%88%98%EC%A0%95)
