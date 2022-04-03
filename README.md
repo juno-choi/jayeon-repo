@@ -10,5 +10,5 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 * [Login Service 적용하기](https://velog.io/@ililil9482/Login-Service-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
 * [Game Service 생성](https://velog.io/@ililil9482/Game-Service-%EC%83%9D%EC%84%B1)
 
-# 📗Front Server
-* [Vue 프로젝트 생성](https://velog.io/@ililil9482/Vue-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
+# 📗Jayeon Server
+* [jayeon 프로젝트 생성 [1] front & back 생성](https://velog.io/@ililil9482/jayeon-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-2-Express-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%88%98%EC%A0%95)
