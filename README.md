@@ -31,6 +31,7 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 # 📘Game Servcie (java)
 * [api server java로 변경 (WebFlux Webclient 사용)](https://velog.io/@ililil9482/api-server-java%EB%A1%9C-%EB%B3%80%EA%B2%BD-WebFlux-Webclient-%EC%82%AC%EC%9A%A9)
 * [api server login 구현 [1] token 발급](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84)
+* [api server login 구현 [2] session cookie 로그인 처리](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-2-session-cookie-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%98%EB%A6%AC)
 
 ---
 
