@@ -19,16 +19,14 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 
 ---
 
-# 📘Game Servcie (express)
+# 📘Game Service
 * [Game Service 생성](https://velog.io/@ililil9482/Game-Service-%EC%83%9D%EC%84%B1)
 * [Game Service 공통 반환 객체 만들기](https://velog.io/@ililil9482/game-service-%EA%B3%B5%ED%86%B5-%EB%B0%98%ED%99%98-%EA%B0%9D%EC%B2%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 * [express api-key 설정하기](https://velog.io/@ililil9482/express-api-key-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
-* 22-4-25 java로 back end 변경
-
 
 ---
 
-# 📘Game Servcie (java)
+# 📗Game Api (java)
 * [api server java로 변경 (WebFlux Webclient 사용)](https://velog.io/@ililil9482/api-server-java%EB%A1%9C-%EB%B3%80%EA%B2%BD-WebFlux-Webclient-%EC%82%AC%EC%9A%A9)
 * [api server login 구현 [1] token 발급](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84)
 * [api server login 구현 [2] session cookie 로그인 처리](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-2-session-cookie-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%98%EB%A6%AC)
