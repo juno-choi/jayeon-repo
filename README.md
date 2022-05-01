@@ -26,14 +26,15 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 
 ---
 
-# 📗Game Api (java)
+# 📙Game Api (java)
 * [api server java로 변경 (WebFlux Webclient 사용)](https://velog.io/@ililil9482/api-server-java%EB%A1%9C-%EB%B3%80%EA%B2%BD-WebFlux-Webclient-%EC%82%AC%EC%9A%A9)
 * [api server login 구현 [1] token 발급](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84)
 * [api server login 구현 [2] session cookie 로그인 처리](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-2-session-cookie-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%98%EB%A6%AC)
 * [api server login 구현 [3] interceptor를 사용하여 로그인 체크](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-3-interceptor%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%B4%ED%81%AC)
-* [Vue 로그인 관리](https://velog.io/@ililil9482/Vue-session-%EA%B4%80%EB%A6%AC)
 
 ---
 
-# 📗Jayeon Server
-* [jayeon 프로젝트 생성 [1] front & back 생성](https://velog.io/@ililil9482/jayeon-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-2-Express-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%88%98%EC%A0%95)
+# 📙Game Front (Vue)
+* [Vue 로그인 관리](https://velog.io/@ililil9482/Vue-session-%EA%B4%80%EB%A6%AC)
+
+---
