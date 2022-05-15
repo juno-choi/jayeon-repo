@@ -31,10 +31,14 @@ jayeon msa 서버를 구성한 내용을 기록하기 위한 저장소
 * [api server login 구현 [1] token 발급](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84)
 * [api server login 구현 [2] session cookie 로그인 처리](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-2-session-cookie-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%98%EB%A6%AC)
 * [api server login 구현 [3] interceptor를 사용하여 로그인 체크](https://velog.io/@ililil9482/api-server-login-%EA%B5%AC%ED%98%84-3-interceptor%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%B4%ED%81%AC)
+* [테스트 코드 작성](https://velog.io/@ililil9482/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1)
 
 ---
 
-# 📗Game Front (Vue)
+# 📗Game Front (Vue) [사이트 URL](https://www.toytoy.tk)
 * [Vue 로그인 관리](https://velog.io/@ililil9482/Vue-session-%EA%B4%80%EB%A6%AC)
+* [https 적용 Let's Encrypt](https://velog.io/@ililil9482/https-%EC%A0%81%EC%9A%A9-Lets-Encrypt)
+* [google map, places api 적용](https://velog.io/@ililil9482/google-map-places-api-%EC%A0%81%EC%9A%A9)
+* [프로젝트 front 수정](https://velog.io/@ililil9482/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-front-%EC%88%98%EC%A0%95)
 
 ---
